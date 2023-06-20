@@ -1,0 +1,181 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaea;
+}
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 95%;
+  height: 60px;
+  background-color: #7c7c7a;
+  margin: 24px auto 18px auto;
+  box-shadow: 0px -2px 8px #000;
+  border-radius: 8px 8px 0 0;
+  padding: 0 1%;
+}
+
+header > div:nth-of-type(1) {
+  display: flex;
+  width: 5%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+header > div:nth-of-type(1) > img {
+  width: 40px;
+  height: 40px;
+}
+
+header > div:nth-of-type(2) {
+  display: flex;
+  width: 95%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+header > div:nth-of-type(2) > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  gap: 6%;
+  justify-content: center;
+  align-items: center;
+}
+header > div:nth-of-type(2) > ul > li {
+  list-style-type: none;
+}
+header > div:nth-of-type(2) > ul > li > a {
+  text-decoration: none;
+  color: #eaeaea;
+  font: 600 16px "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+    transition: all 300ms linear;
+}
+header > div:nth-of-type(2) > ul > li > a:hover {
+  color: #000;
+}
+
+section#parallax {
+  width: 97%;
+  height: 600px;
+  margin: 0px auto 24px auto;
+  box-shadow: 0px 5px 16px #000;
+  border-radius: 0 0 8px 8px;
+}
+
+section#parallax > div.par {
+  background-image: url("./Images/parall.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+section#parallax > div.par > h1 {
+  width: 100%;
+  font: 600 52px "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+  transform: scaleY(1.3);
+  text-shadow: #000 0px 0px 16px;
+  background-attachment: scroll;
+}
+
+section#products {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1%;
+  width: 97%;
+  margin: 0 auto;
+}
+section#products > div.product {
+  width: calc(100% / 3.062);
+  height: min-content;
+  box-shadow: 0px 5px 16px #000;
+  margin: 8px 0px;
+}
+section#products > div.product > img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -6px;
+  cursor: pointer;
+}
+section#products > div.product > div {
+  width: 100%;
+  padding: 8px 0 16px 0;
+  background-color: rgb(0, 0, 0, 20%);
+}
+
+section#products > div.product > div > h2 {
+  color: #fff;
+  text-shadow: #000 0px 0px 4px;
+  padding-left: 32px;
+  font-size: 18px;
+}
+section#products > div.product > div > p {
+  font: 600 16px "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 32px;
+}
+section#products > div.product > div > a {
+  text-decoration: none;
+  font: 600 14px "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 32px;
+  color: #3c3c3a;
+  transition: all 300ms linear;
+}
+section#products > div.product > div > a:hover {
+  color: #fff;
+}
+
+section#footer {
+  width: 97%;
+  background-color: #7c7c7a;
+  margin: 24px auto;
+  box-shadow: 0px 2px 8px #000;
+  padding: 16px 0 4px 0;
+  border-radius: 0 0 8px 8px;
+}
+section#footer > div:nth-of-type(1) {
+  width: 98%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  gap: 1%;
+  padding: 0 1%;
+}
+
+section#footer > div:nth-of-type(1) > a {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #5c5c5a;
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+  transition: all 300ms linear;
+  color: #eaeaea;
+  font: 600 16px "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+section#footer > div:nth-of-type(1) > a:hover {
+  background-color: #7c7c7a;
+  color: #000;
+  border: #000 solid 1px;
+}
+section#footer > div:nth-of-type(2) {
+  text-align: center;
+  font-size: small;
+  padding-top: 4px;
+}

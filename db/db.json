@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "p1.jpg",
+      "title": "Sneaker 1",
+      "price": "350€"
+    },
+    {
+      "id": 2,
+      "image": "p2.jpg",
+      "title": "Sneaker 2",
+      "price": "400€"
+    },
+    {
+      "id": 3,
+      "image": "p3.jpg",
+      "title": "Sneaker 3",
+      "price": "530€"
+    },
+    {
+      "id": 1,
+      "image": "p2.jpg",
+      "title": "Sneaker 2",
+      "price": "320€"
+    },
+    {
+      "id": 2,
+      "image": "p3.jpg",
+      "title": "Sneaker 3",
+      "price": "200€"
+    },
+    {
+      "id": 3,
+      "image": "p1.jpg",
+      "title": "Sneaker 1",
+      "price": "130€"
+    }
+  ]
+}
